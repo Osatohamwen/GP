@@ -5,7 +5,7 @@
     font-family: "jost", sans-serif;
 }
 main{
-    background-color: black;
+    background-color: blacK;
 }
 
 .container{
@@ -60,7 +60,7 @@ main{
     transform: translate(-50%, -50%) scale(1);
   }
   .bg-text h3{
-    color: rgba(0, 173, 238, 1);
+    color: rgb(53, 53, 241);
    text-align: center;
    font-size: 1.5rem;
   }
@@ -98,9 +98,10 @@ main{
     transition: transform 0.2s;
     border: none;
     font-weight: 700;
+    cursor: pointer;
   }
   .btn button{
-    background-color: rgba(0, 173, 238, 1);
+    background-color: rgb(53, 53, 241);
     width: 600%;
   }
   .btn-1{
