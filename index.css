@@ -60,7 +60,7 @@ main{
     transform: translate(-50%, -50%) scale(1);
   }
   .bg-text h3{
-    color: rgb(53, 53, 241);
+    color: rgb(3, 158, 214);
    text-align: center;
    font-size: 1.5rem;
   }
@@ -101,7 +101,7 @@ main{
     cursor: pointer;
   }
   .btn button{
-    background-color: rgb(53, 53, 241);
+    background-color: rgb(3, 158, 214);
     width: 600%;
   }
   .btn-1{
