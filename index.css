@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "jost", sans-serif;
+}
+
+.container{
+    background-image: url("./assets/img-AG.jpg");
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+  .bg-text {
+    z-index: 2;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.8);
+    font-weight: bold;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 85%;
+    padding: 20px;
+  }
+  .text-2{
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.8);
+    border: 1px solid white;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    transition: all 0.6s ease-in-out;
+    /* z-index: 2; */
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .pop-up{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .bg-text h3{
+    color: rgb(77, 77, 241);
+   text-align: center;
+   font-size: 1.5rem;
+  }
+  .text-2 h2{
+    color: rgb(250, 178, 43);
+  }
+  .text-2 p{
+    color: white;
+  }
+  .bg-text ol{
+    color: white;
+    padding: 1rem 1rem 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1rem;
+    text-align: start;
+  }
+  span{
+    /* color: rgb(199, 199, 84); */
+    font-style: italic;
+    color: white;
+  }
+  .btn{
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+ }
+  .btn button, .btn-1{
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+    transition: transform 0.2s;
+    border: none;
+    font-weight: 700;
+  }
+  .btn button{
+    background-color: rgb(77, 77, 241);
+    width: 600%;
+  }
+  .btn-1{
+    background-color: rgb(250, 178, 43);
+    width: 100%;
+    margin-top: 1rem;
+
+  }
+  .btn button:active{
+    transform: scale(0.95);
+}
+.img-1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: -4.5rem 0 0 0;
+}
+
+
+  @media(min-width:500px){
+    .bg-text{
+        width: 40%;
+        text-align: center;
+    }
+    .bg-text ol{
+        text-align: center;
+    }
+    .text-2{
+        width: 40%;
+    }
+  }
