@@ -4,12 +4,10 @@
     margin: 0;
     font-family: "jost", sans-serif;
 }
-main{
-    background-color: blacK;
-}
 
 .container{
     background-image: url("./assets/img-AG.jpg");
+    background-color: black;
     background-position: center center;
     position: relative;
     background-repeat: no-repeat;
