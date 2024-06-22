@@ -4,6 +4,9 @@
     margin: 0;
     font-family: "jost", sans-serif;
 }
+main{
+    background-color: black;
+}
 
 .container{
     background-image: url("./assets/img-AG.jpg");
@@ -57,7 +60,7 @@
     transform: translate(-50%, -50%) scale(1);
   }
   .bg-text h3{
-    color: rgb(77, 77, 241);
+    color: rgba(0, 173, 238, 1);
    text-align: center;
    font-size: 1.5rem;
   }
@@ -97,7 +100,7 @@
     font-weight: 700;
   }
   .btn button{
-    background-color: rgb(77, 77, 241);
+    background-color: rgba(0, 173, 238, 1);
     width: 600%;
   }
   .btn-1{
